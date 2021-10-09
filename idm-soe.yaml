@@ -1,0 +1,11 @@
+---
+- name: Configure host with SOE
+  hosts: jenkins.idm.hussdogg.com
+  become: true
+  vars:
+    reboot: true
+  roles:
+    - yum-update
+    - ipaclient
+    - duounix-deploy
+    - idm-hussdogg-soe
