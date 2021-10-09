@@ -19,10 +19,9 @@ roles:
 
 # Required Ansible Collections
 collections:
-## From Ansible Galaxy
-### Community General
-- name: community.general
-### Ansible POSIX
-- name: ansible.posix
-### FreeIPA
-- name: freeipa.ansible_freeipa
+  - name: community.general
+    source: https://galaxy.ansible.com
+  - name: ansible.posix
+    source: https://galaxy.ansible.com
+  - name: freeipa.ansible_freeipa
+    source: https://galaxy.ansible.com
