@@ -1,6 +1,6 @@
 ---
 - name: Configure host with SOE
-  hosts: jenkins.idm.hussdogg.com
+  hosts: all
   become: true
   vars:
     reboot: true
