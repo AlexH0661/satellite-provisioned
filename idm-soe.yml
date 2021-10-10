@@ -5,7 +5,8 @@
   vars:
     reboot: true
   roles:
-    - yum-update
-    - ipaclient
-    - duounix-deploy
-    - idm-hussdogg-soe
+    - role: yum-update
+    - role: ipaclient
+      state: present
+    - role: duounix-deploy
+    - role: idm-hussdogg-soe
