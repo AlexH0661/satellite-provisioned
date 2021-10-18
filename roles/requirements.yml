@@ -1,16 +1,11 @@
-roles:
-## From GitHub
-### IdM HUSSDOGG SOE
 - name: idm-hussdogg-soe 
   src: https://github.com/AlexH0661/idm-hussdogg-soe.git
   scm: git
   version: develop
-### Duo Unix MFA Role
 - name: duounix-deploy 
   src: https://github.com/AlexH0661/duounix-deploy.git
   scm: git
   version: develop
-### Yum Update Role
 - name: yum-update
   src: https://github.com/AlexH0661/yum-update.git
   scm: git
