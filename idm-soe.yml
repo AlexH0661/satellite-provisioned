@@ -7,6 +7,5 @@
   roles:
     - role: yum-update
     - role: freeipa.ansible_freeipa.ipaclient
-      state: present
     - role: duounix-deploy
     - role: idm-hussdogg-soe
