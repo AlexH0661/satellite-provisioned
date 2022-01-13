@@ -7,5 +7,6 @@
   roles:
     - role: yum-update
     - role: freeipa.ansible_freeipa.ipaclient
+    - role: freeipa.ansible_freeipa.ipareplica
     - role: duounix-deploy
     - role: idm-hussdogg-soe
