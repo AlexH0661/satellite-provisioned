@@ -10,5 +10,6 @@
     - role: yum-update
     - role: freeipa.ansible_freeipa.ipaclient
     - role: freeipa.ansible_freeipa.ipareplica
+      when: "'ipareplicas' in group_names"
     - role: duounix-deploy
     - role: idm-hussdogg-soe
