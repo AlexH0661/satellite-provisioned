@@ -4,6 +4,8 @@
   become: true
   vars:
     reboot: true
+  vars_files:
+    - encrypted_vars.yml
   roles:
     - role: yum-update
     - role: freeipa.ansible_freeipa.ipaclient
